@@ -54,7 +54,7 @@ function FullGrid({ startRow, startCol, destRow, destCol }) {
 
   return (
     <div>
-      <div className="flex justify-center px-[20px] pb-[10px]">
+      <div className="flex justify-center px-[20px] pb-[20px]">
         <table className="table-fixed">
           <tbody>{createFullGrid(rowSize, colSize)}</tbody>
         </table>

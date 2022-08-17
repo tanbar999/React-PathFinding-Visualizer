@@ -1,5 +1,5 @@
 function incrementRow(x) {
-  if (x < 22) return x + 1;
+  if (x < 20) return x + 1;
   return x;
 }
 

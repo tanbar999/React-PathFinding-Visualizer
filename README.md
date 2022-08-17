@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Getting Started with PathFinding Algorithm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technology Stack :  ReactJS, tailwindCSS, Framer Motion
 
-## Available Scripts
+Website link : https://react-path-finding-visualizer.vercel.app/
 
-In the project directory, you can run:
+-> Hit the bulb icon to get more and clear details.
 
-### `npm start`
+# How to use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💜 Using [W,A,S,D] can move the starting point marked by {S}.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💜 Using [⬆️,➡️,⬇️,⬅️] can move the destination point marked by {D}.
 
-### `npm test`
+💜 Press Left mouse button and drag to create walls which would act like obstructions for pathfinding algorithms.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💜 Select the given path-finding algorithms and Hit Go.
 
-### `npm run build`
+💜 You can Reset just the Path that was calculated and watch other pathfinding algorithms.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💜 You can Reset All  the Path and the walls i.e. CLEAN SLATE.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-> There are different algorithms that can be selected just by pressing on it and once you are ready with your grid just hit GO.
+-> You can jusr RESET PATHS to see how other algorithms performs in the same situation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Special "Spiral" traversal
 
-### `npm run eject`
+💜 This algorithm is new and traverses the grid in a spiral form.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💜 It assumes that the grid is infinite.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+💜 If there is no way, it will move out of the grid and calculate the neares entrance and will find the destination.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💜 Its very hard to block.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

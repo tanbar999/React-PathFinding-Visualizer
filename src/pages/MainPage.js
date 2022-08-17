@@ -36,7 +36,7 @@ function MainPage() {
         <p>Number of Squares traversed : {traverseSquare}</p>
       </div>
       <FullGrid startRow={startRow} startCol={startCol} destRow={destRow} destCol={destCol} />
-      <div className="flex justify-center align-center pb-2">
+      <div className="flex justify-center align-center pb-4">
         <span className="text-gray-400 font-semibold">Connect with me : </span>
         <a href="https://www.linkedin.com/in/taniskannpurna/">
           <FaLinkedin className="text-2xl text-gray-400 mx-2" />

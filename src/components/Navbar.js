@@ -30,7 +30,7 @@ function Navbar({ startRow, startCol, destRow, destCol }) {
               {"💜 Using [W,A,S,D] can move the starting point marked by {S}."}
             </p>
             <p className="text-center text-md font-normal">
-              {"💜 Using [⬆️,➡️,⬇️,⬅️] can move the starting point marked by {D}."}
+              {"💜 Using [⬆️,➡️,⬇️,⬅️] can move the destination point marked by {D}."}
             </p>
             <p className="text-center text-md font-normal">
               {
@@ -41,7 +41,7 @@ function Navbar({ startRow, startCol, destRow, destCol }) {
               {"💜 Select the given path-finding algorithms and Hit Go."}
             </p>
             <p className="text-center text-md font-normal">
-              {"💜 You can Reset just the Path that was caclculated and watch other pathfinding algorithms."}
+              {"💜 You can Reset just the Path that was calculated and watch other pathfinding algorithms."}
             </p>
             <p className="text-center text-md font-normal">
               {"💜 You can Reset All  the Path and the walls i.e. CLEAN SLATE."}

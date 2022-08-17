@@ -9,7 +9,7 @@ import Spiral from "./algorithmHelper/Spiral";
 const gridContext = createContext();
 
 export function GridProvider({ children }) {
-  const rowSize = 22;
+  const rowSize = 23;
   const colSize = 40;
 
   const [grid, setGrid] = useState(Array.from({ length: rowSize }, () => Array.from({ length: colSize }, () => "")));
